@@ -8,7 +8,7 @@ from datetime import datetime
 from config import API_HASH, API_ID, LOGGER, BOT_TOKEN, TG_BOT_WORKERS, FORCE_SUB_CHANNEL, CHANNEL_ID, PORT
 import pyrogram.utils
 
-pyrogram.utils.MIN_CHANNEL_ID = -1002484519297
+pyrogram.utils.MIN_CHANNEL_ID = -1002370035883
 
 
 
@@ -46,7 +46,7 @@ class Bot(Client):
         try:
             db_channel = await self.get_chat(CHANNEL_ID)
             self.db_channel = db_channel
-            test = await self.send_message(chat_id = db_channel.id, text = "Hey 🖐")
+            test = await self.send_message(chat_id = db_channel.id, text = "Hᴇʏ 🖐")
             await test.delete()
         except Exception as e:
             self.LOGGER(__name__).warning(e)
@@ -55,8 +55,8 @@ class Bot(Client):
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"Bot Running...!\n\nCreated By \nhttps://t.me/Madflix_Bots")
-        self.LOGGER(__name__).info(f"""ミ💖 MADFLIX BOTZ 💖彡""")
+        self.LOGGER(__name__).info(f"Bot Running...!\n\nCreated By \t.me/GaaraFx")
+        self.LOGGER(__name__).info(f"""ミSᴀᴊɪᴅ彡""")
         self.username = usr_bot_me.username
         #web-response
         app = web.AppRunner(await web_server())
