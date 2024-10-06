@@ -54,7 +54,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 
 
-PICS = (environ.get('PICS', 'https://i.ibb.co/WPTP42j/image.jpg')).split()
+
 
 USER_REPLY_TEXT = "❌Don't Send Me Messages Directly I'm Only File Share Bot !"
 
