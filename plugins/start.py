@@ -89,7 +89,7 @@ async def start_command(client: Client, message: Message):
                 pass
 
 
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>❗️ <u>IᴍᴘᴏʀᴛᴀɴT</u> ❗️</b>\n\nTʜɪs Vɪᴅᴇᴏ / Fɪʟᴇ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ 1𝟶 Mɪɴᴜᴛᴇs (Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs).\n\n📌 Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Vɪᴅᴇᴏ / Fɪʟᴇ Tᴏ Sᴏᴍᴇᴡʜᴇʀᴇ Eʟsᴇ Aɴᴅ Sᴛᴀʀᴛ Dᴏᴡɴʟᴏᴀᴅɪɴɢ Tʜᴇʀᴇ.")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>👻 <u>IᴍᴘᴏʀᴛᴀɴT</u> 👻</b>\n\nTʜɪs Vɪᴅᴇᴏ / Fɪʟᴇ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ 1𝟶 Mɪɴᴜᴛᴇs (Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs).\n\n🗣️ Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Vɪᴅᴇᴏ / Fɪʟᴇ Tᴏ Sᴏᴍᴇᴡʜᴇʀᴇ Eʟsᴇ Aɴᴅ Sᴛᴀʀᴛ Dᴏᴡɴʟᴏᴀᴅɪɴɢ Tʜᴇʀᴇ.")
 
         # Schedule the file deletion
         asyncio.create_task(delete_files(madflix_msgs, client, k))
