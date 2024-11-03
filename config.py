@@ -11,7 +11,7 @@ API_HASH = os.environ.get("API_HASH", "a0087bca748f86698c53d291c9e5b3af")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "6170962395"))
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://sajideditz27:8aa5To5ymnvexRBb@cluster0.a2ity.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://autofilter66:CgnRdSrhseDgOcYm@cluster0.zswjx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 
 
