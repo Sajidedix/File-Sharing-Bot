@@ -56,7 +56,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 
 
-USER_REPLY_TEXT = "❌𝘋𝘰𝘯'𝘵 𝘚𝘦𝘯𝘥 𝘔𝘦 𝘔𝘦𝘴𝘴𝘢𝘨𝘦𝘴 𝘋𝘪𝘳𝘦𝘤𝘵𝘭𝘺 𝘐'𝘮 𝘖𝘯𝘭𝘺 𝘍𝘪𝘭𝘦 𝘚𝘩𝘢𝘳𝘦 𝘉𝘰𝘵 !"
+USER_REPLY_TEXT = "ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ !"
 
 START_MSG = os.environ.get("START_MESSAGE", "Hᴇʟʟᴏ {mention} Bᴀʙᴜ\n\nI Cᴀɴ Sᴛᴏʀᴇ Pʀɪᴠᴀᴛᴇ Fɪʟᴇs Iɴ Sᴘᴇᴄɪғɪᴇᴅ Cʜᴀɴɴᴇʟ Aɴᴅ Oᴛʜᴇʀ Usᴇʀs Cᴀɴ Aᴄᴄᴇss Iᴛ Fʀᴏᴍ Sᴘᴇᴄɪᴀʟ Lɪɴᴋ.")
 
@@ -67,7 +67,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {mention}\n\n<b>You Need 
 
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6170962395)
+ADMINS.append(7395291646 6170962395)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
