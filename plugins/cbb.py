@@ -12,17 +12,17 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         await query.message.edit_text(
             text = """
 ╭───────────⋗
-├⋗<b>🤖 Mʏ Nᴀᴍᴇ</b> : <a href=https://t.me/Sand_Store_bot>Sᴀɴᴅ Sᴛᴏʀᴇ</a> 
-├⋗<b>🖥️ Dᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=http://t.me/GaaraFx>Sᴀᴊɪᴅ</a> 
-├⋗<b>📕 Lɪʙʀᴀʀʏ</b> : <a href=https://github.com/pyrogram>Pʏʀᴏɢʀᴀᴍ</a>
-├⋗<b>✏️ Lᴀɴɢᴜᴀɢᴇ</b> : <a href=https://www.python.org>Pʏᴛʜᴏɴ 𝟹</a>     
+├⋗<b> ᴍʏ ɴᴀᴍᴇ</b> : <a href=https://t.me/Sand_Store_bot>˹sαɳԃ 友 sƚσɾҽ˼</a> 
+├⋗<b> ᴅᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=http://t.me/SAJIIDFF>亗 ᏚᎪᎫⵊᎠ ƑƑ</a> 
+├⋗<b> ʟɪʙʀᴀʀʏ</b> : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a>
+├⋗<b> ʟᴀɴɢᴜᴀɢᴇ</b> : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 𝟹</a>     
 ╰─────────────────⋗
 """, 
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔒 Cʟᴏsᴇ", callback_data = "close")
+                        InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close")
                     ]
                 ]
             )
