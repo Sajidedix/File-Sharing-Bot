@@ -13,7 +13,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             text = """
 ╭───────────⋗
 ├⋗<b> ᴍʏ ɴᴀᴍᴇ</b> : <a href=https://t.me/Sand_Store_bot>˹sαɳԃ 友 sƚσɾҽ˼</a> 
-├⋗<b> ᴅᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=http://t.me/iMSASUKE7i>ＩＭ 𖣘︎ ＵＣＨＩＨＡ</a> 
+├⋗<b> ᴅᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=http://t.me/iMSASUKEi>ＩＭ 𖣘︎ ＵＣＨＩＨＡ</a> 
 ├⋗<b> ɢʀᴏᴜᴘ ᴄʜᴀᴛ</b> : <a href=https://t.me/SandVillage>𝐒ᴧηԃ 友 𝐕𝛊ʅʅᴧɠҽ</a>
 ├⋗<b> ᴄʜᴀɴɴᴇʟ</b> : <a href=https://t.me/NARUTO_PUBLIC>𝐍𝐀𝐑𝐔𝐓𝐎 🌀</a>     
 ╰─────────────────⋗
