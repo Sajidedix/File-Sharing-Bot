@@ -12,8 +12,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         await query.message.edit_text(
             text = """
 ╭───────────⋗
-├⋗<b> ᴍʏ ɴᴀᴍᴇ</b> : <a href=https://t.me/Sand_Store_bot>**˹sαɳԃ 友 sƚσɾҽ˼**</a> 
-├⋗<b> ᴏᴡɴᴇʀ</b> : <a href=http://t.me/iMSASUKESi>**ＩＭ 𖣘︎ ＵＣＨＩＨＡ**</a> 
+├⋗<b> ᴍʏ ɴᴀᴍᴇ</b> : <a href=https://t.me/Sand_Store_bot><b>˹sαɳԃ 友 sƚσɾҽ˼</b></a> 
+├⋗<b> ᴏᴡɴᴇʀ</b> : <a href=http://t.me/iMSASUKESi><b>ＩＭ 𖣘︎ ＵＣＨＩＨＡ</b></a> 
 ├⋗<b> ɢʀᴏᴜᴘ</b> : <a href=https://t.me/SandVillage>𝐒ᴧηԃ 友 𝐕𝛊ʅʅᴧɠҽ</a>
 ├⋗<b> ᴄʜᴀɴɴᴇʟ</b> : <a href=https://t.me/NARUTO_PUBLIC>𝐍𝐀𝐑𝐔𝐓𝐎 🌀</a>     
 ╰─────────────────⋗
