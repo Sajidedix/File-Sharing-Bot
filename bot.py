@@ -55,7 +55,7 @@ class Bot(Client):
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"Bot Running...!\n\nCreated By \t.me/iMSASUKES7i")
+        self.LOGGER(__name__).info(f"Bot Running...!\n\nCreated By \t.me/iMSASUKESi")
         self.LOGGER(__name__).info(f"""ミSᴀᴊɪᴅ彡""")
         self.username = usr_bot_me.username
         #web-response
